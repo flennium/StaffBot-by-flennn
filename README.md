@@ -48,7 +48,7 @@
 ## 📦 التثبيت
 
 ```bash
-npm install
+npm install @discordjs/voice@^0.17.0 ascii-table@^0.0.9 axios@^1.7.7 canvas@^2.11.2 chalk@^2.4.2 discord.js@^14.16.2 mongoose@^8.6.2 ms@^2.1.3
 ```
 
 ## ▶️ التشغيل
