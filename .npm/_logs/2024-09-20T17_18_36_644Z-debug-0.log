@@ -1,0 +1,146 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.3
+2 info using node@v21.7.3
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install canvas
+7 verbose argv "install" "canvas"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2024-09-20T17_18_36_644Z-
+9 verbose logfile /home/container/.npm/_logs/2024-09-20T17_18_36_644Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest canvas@^2.11.2
+15 silly packumentCache full:https://registry.npmjs.org/canvas cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/canvas 50ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/canvas set size:637051 disposed:false
+18 silly placeDep ROOT canvas@2.11.2 REPLACE for:  want: ^2.11.2
+19 silly reify moves {}
+20 silly audit bulk request {
+20 silly audit   '@discordjs/builders': [ '1.9.0' ],
+20 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.1' ],
+20 silly audit   '@discordjs/formatters': [ '0.5.0' ],
+20 silly audit   '@discordjs/rest': [ '2.4.0' ],
+20 silly audit   '@discordjs/util': [ '1.1.1' ],
+20 silly audit   '@discordjs/voice': [ '0.17.0' ],
+20 silly audit   'discord-api-types': [ '0.37.83', '0.37.97' ],
+20 silly audit   '@discordjs/ws': [ '1.1.1' ],
+20 silly audit   '@mapbox/node-pre-gyp': [ '1.0.11' ],
+20 silly audit   '@mongodb-js/saslprep': [ '1.1.9' ],
+20 silly audit   '@sapphire/async-queue': [ '1.5.3' ],
+20 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+20 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+20 silly audit   '@types/node': [ '22.5.5' ],
+20 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+20 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+20 silly audit   '@types/ws': [ '8.5.12' ],
+20 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.6' ],
+20 silly audit   abbrev: [ '1.1.1' ],
+20 silly audit   'agent-base': [ '6.0.2' ],
+20 silly audit   'ansi-regex': [ '5.0.1' ],
+20 silly audit   'ansi-styles': [ '3.2.1' ],
+20 silly audit   aproba: [ '2.0.0' ],
+20 silly audit   'are-we-there-yet': [ '2.0.0' ],
+20 silly audit   'ascii-table': [ '0.0.9' ],
+20 silly audit   asynckit: [ '0.4.0' ],
+20 silly audit   axios: [ '1.7.7' ],
+20 silly audit   'balanced-match': [ '1.0.2' ],
+20 silly audit   'brace-expansion': [ '1.1.11' ],
+20 silly audit   bson: [ '6.8.0' ],
+20 silly audit   chalk: [ '2.4.2' ],
+20 silly audit   chownr: [ '2.0.0' ],
+20 silly audit   'color-convert': [ '1.9.3' ],
+20 silly audit   'color-name': [ '1.1.3' ],
+20 silly audit   'color-support': [ '1.1.3' ],
+20 silly audit   'combined-stream': [ '1.0.8' ],
+20 silly audit   'concat-map': [ '0.0.1' ],
+20 silly audit   'console-control-strings': [ '1.1.0' ],
+20 silly audit   debug: [ '4.3.7' ],
+20 silly audit   'decompress-response': [ '4.2.1' ],
+20 silly audit   'delayed-stream': [ '1.0.0' ],
+20 silly audit   delegates: [ '1.0.0' ],
+20 silly audit   'detect-libc': [ '2.0.3' ],
+20 silly audit   'discord.js': [ '14.16.2' ],
+20 silly audit   'emoji-regex': [ '8.0.0' ],
+20 silly audit   'escape-string-regexp': [ '1.0.5' ],
+20 silly audit   'fast-deep-equal': [ '3.1.3' ],
+20 silly audit   'follow-redirects': [ '1.15.9' ],
+20 silly audit   'form-data': [ '4.0.0' ],
+20 silly audit   'fs-minipass': [ '2.1.0' ],
+20 silly audit   minipass: [ '3.3.6', '5.0.0' ],
+20 silly audit   'fs.realpath': [ '1.0.0' ],
+20 silly audit   gauge: [ '3.0.2' ],
+20 silly audit   glob: [ '7.2.3' ],
+20 silly audit   'has-flag': [ '3.0.0' ],
+20 silly audit   'has-unicode': [ '2.0.1' ],
+20 silly audit   'https-proxy-agent': [ '5.0.1' ],
+20 silly audit   inflight: [ '1.0.6' ],
+20 silly audit   inherits: [ '2.0.4' ],
+20 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+20 silly audit   kareem: [ '2.6.3' ],
+20 silly audit   lodash: [ '4.17.21' ],
+20 silly audit   'lodash.snakecase': [ '4.1.1' ],
+20 silly audit   'magic-bytes.js': [ '1.10.0' ],
+20 silly audit   'make-dir': [ '3.1.0' ],
+20 silly audit   semver: [ '6.3.1', '7.6.3' ],
+20 silly audit   'memory-pager': [ '1.5.0' ],
+20 silly audit   'mime-db': [ '1.52.0' ],
+20 silly audit   'mime-types': [ '2.1.35' ],
+20 silly audit   'mimic-response': [ '2.1.0' ],
+20 silly audit   minimatch: [ '3.1.2' ],
+20 silly audit   minizlib: [ '2.1.2' ],
+20 silly audit   mkdirp: [ '1.0.4' ],
+20 silly audit   mongodb: [ '6.8.0' ],
+20 silly audit   'mongodb-connection-string-url': [ '3.0.1' ],
+20 silly audit   mongoose: [ '8.6.2' ],
+20 silly audit   mpath: [ '0.9.0' ],
+20 silly audit   mquery: [ '5.0.0' ],
+20 silly audit   ms: [ '2.1.3' ],
+20 silly audit   nan: [ '2.20.0' ],
+20 silly audit   'node-fetch': [ '2.7.0' ],
+20 silly audit   tr46: [ '0.0.3', '4.1.1' ],
+20 silly audit   'webidl-conversions': [ '3.0.1', '7.0.0' ],
+20 silly audit   'whatwg-url': [ '5.0.0', '13.0.0' ],
+20 silly audit   nopt: [ '5.0.0' ],
+20 silly audit   npmlog: [ '5.0.1' ],
+20 silly audit   'object-assign': [ '4.1.1' ],
+20 silly audit   once: [ '1.4.0' ],
+20 silly audit   'path-is-absolute': [ '1.0.1' ],
+20 silly audit   'prism-media': [ '1.3.5' ],
+20 silly audit   'proxy-from-env': [ '1.1.0' ],
+20 silly audit   punycode: [ '2.3.1' ],
+20 silly audit   'readable-stream': [ '3.6.2' ],
+20 silly audit   rimraf: [ '3.0.2' ],
+20 silly audit   'safe-buffer': [ '5.2.1' ],
+20 silly audit   'set-blocking': [ '2.0.0' ],
+20 silly audit   sift: [ '17.1.3' ],
+20 silly audit   'signal-exit': [ '3.0.7' ],
+20 silly audit   'simple-concat': [ '1.0.1' ],
+20 silly audit   'simple-get': [ '3.1.1' ],
+20 silly audit   'sparse-bitfield': [ '3.0.3' ],
+20 silly audit   string_decoder: [ '1.3.0' ],
+20 silly audit   'string-width': [ '4.2.3' ],
+20 silly audit   'strip-ansi': [ '6.0.1' ],
+20 silly audit   'supports-color': [ '5.5.0' ],
+20 silly audit   tar: [ '6.2.1' ],
+20 silly audit   'ts-mixer': [ '6.0.4' ],
+20 silly audit   tslib: [ '2.7.0' ],
+20 silly audit   undici: [ '6.19.8' ],
+20 silly audit   'undici-types': [ '6.19.8' ],
+20 silly audit   'util-deprecate': [ '1.0.2' ],
+20 silly audit   'wide-align': [ '1.1.5' ],
+20 silly audit   wrappy: [ '1.0.2' ],
+20 silly audit   ws: [ '8.18.0' ],
+20 silly audit   yallist: [ '4.0.0' ],
+20 silly audit   canvas: [ '2.11.2' ]
+20 silly audit }
+21 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 324ms
+22 silly audit report {}
+23 verbose cwd /home/container
+24 verbose os Linux 6.8.0-39-generic
+25 verbose node v21.7.3
+26 verbose npm  v10.8.3
+27 verbose exit 0
+28 info ok

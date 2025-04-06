@@ -1,0 +1,23 @@
+{
+    "command": {
+        "aliases": ["Mc", "mc", "mC", "MC", "ip", "Ip", "iP", "IP"]
+    },
+    "ip": "flennn.xyz",
+    "port": 19132,
+    "compenrole": "رتبة التعويض",
+    "highstaffrole": "رتبة الستاف العليا",
+    "staffrole": "رتبة الستاف",
+    "guildID": "ايدي السيرفر",
+    "prefix": ".",
+    "clientID": "ايدي البوت",
+    "token": "توكن البوت",
+    "mclogchannel": "ايدي شنل ماين كرافت",
+    "dclogchannel": "ايدي شنل لوق ديسكورد",
+    "compenlogchannel": "ايدي شنل التعويض",
+    "ticketsbotID": "ايدي بوت التكت",
+    "mongoDatabaseUri": "رابط داتا بيس مونقو ",
+    "botstatus": "الحالة حق البوت",
+    "onlineemoji": "<:online:1098540778311139379>",
+    "offlineemoji": "<:offline:1098540747113893929>",
+    "servername": "اسم لبسيرفر"
+}
